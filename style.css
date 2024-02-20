@@ -35,4 +35,8 @@ form{
     padding: 20px;
 }
 
-
+.g-recaptcha{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
