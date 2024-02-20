@@ -7,7 +7,7 @@ function beforesubmit(event){
     
         let formatdate = new Date(inputdate.value).toLocaleDateString("en-AU");
         outputdate.value = formatdate;
-    }else{
+    } else {
         alert("plz chk recaptcha");
         event.preventDefault(); //this immediately stop submission of form
     }
